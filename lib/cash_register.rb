@@ -16,16 +16,13 @@ class CashRegister
     item_info[:quantity] = quantity
 
     @cart << item_info
-
-<<<<<<< HEAD
    
     @total += price * quantity
     @last_transaction = price * quantity  
-=======
+
    
     @total += price * quantity
     last_transaction = @total 
->>>>>>> 9cb13d6296946cb414106390553e67a4e500ab58
     
 end
   def apply_discount
@@ -45,10 +42,6 @@ end
     item_names
   end 
 def void_last_transaction
-<<<<<<< HEAD
-  binding.pry
-=======
->>>>>>> 9cb13d6296946cb414106390553e67a4e500ab58
   self.total = self.total - last_transaction
     end
 end
