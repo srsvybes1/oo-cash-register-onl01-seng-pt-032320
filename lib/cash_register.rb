@@ -21,8 +21,8 @@ class CashRegister
     @last_transaction = @total  
 
    
-    @total += price * quantity
-    last_transaction = @total 
+    #@total += price * quantity
+    #last_transaction = @total 
     
 end
   def apply_discount
