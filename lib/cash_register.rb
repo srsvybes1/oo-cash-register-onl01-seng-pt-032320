@@ -20,7 +20,7 @@ class CashRegister
 <<<<<<< HEAD
    
     @total += price * quantity
-    @last_transaction = @total 
+    @last_transaction = price * quantity  
 =======
    binding.pry
     @total += price * quantity
