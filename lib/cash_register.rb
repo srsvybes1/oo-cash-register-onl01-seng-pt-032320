@@ -22,7 +22,7 @@ class CashRegister
     @total += price * quantity
     @last_transaction = price * quantity  
 =======
-   binding.pry
+   
     @total += price * quantity
     last_transaction = @total 
 >>>>>>> 9cb13d6296946cb414106390553e67a4e500ab58
